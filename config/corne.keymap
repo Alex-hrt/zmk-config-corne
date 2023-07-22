@@ -99,7 +99,9 @@
             label = "LOREM_TEST";
             bindings =
                 <&behav_e E undefined>,
-                <&behav_e_maj E undefined>;
+                <&behav_e_maj E undefined>,
+                <&kp A>,
+                <&kp Z>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
