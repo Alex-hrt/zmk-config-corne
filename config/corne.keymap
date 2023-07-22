@@ -98,8 +98,8 @@
             compatible = "zmk,behavior-mod-morph";
             label = "LOREM_TEST";
             bindings =
-                <&behav_e E undefined>,
-                <&behav_e_maj E undefined>,
+                <&behav_e E <&macro_e>>,
+                <&behav_e_maj E <&macro_e_maj>>,
                 <&kp A>,
                 <&kp Z>;
 
