@@ -49,9 +49,9 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>;
         };
-        macro_e_maj: macro_e_maj {
+        macro_maj_e: macro_maj_e {
             compatible = "zmk,behavior-macro";
-            label = "MACRO_E_MAJ";
+            label = "MACRO_MAJ_E";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
@@ -119,7 +119,7 @@
             label = "BEHAV_E_MAJ";
             bindings =
                 <&kp>,
-                <&macro_e_maj>;
+                <&macro_maj_e>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
