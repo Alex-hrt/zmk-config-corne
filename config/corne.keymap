@@ -74,10 +74,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-         &kp TAB  &mt FR_A FR_A_GRAVE  &kp FR_Z    &mt FR_E FR_E_ACUTE  &mt FR_R FR_E_GRAVE                          &kp FR_T     &kp FR_Y       &kp FR_U          &kp FR_I      &kp FR_O            &kp FR_P       &kp ESCAPE
-  &kp LEFT_SHIFT             &kp FR_Q  &kp FR_S               &kp FR_D             &kp FR_F                          &kp FR_G     &kp FR_H       &kp FR_J          &kp FR_K      &kp FR_L            &kp FR_M        &kp ENTER
-&kp LEFT_CONTROL             &kp FR_W  &kp FR_X  &mt FR_C FR_C_CEDILLA             &kp FR_V                          &kp FR_B     &kp FR_N   &kp FR_COMMA  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION  &kp RIGHT_SHIFT
-                                                              &kp LGUI          &mo_tog 2 2  &hold_sticky LEFT_ALT LEFT_SHIFT    &kp SPACE  &kp BACKSPACE       &mo_tog 1 1
+         &kp TAB  &mt FR_A_GRAVE FR_A  &kp FR_Z    &mt FR_E_ACUTE FR_E  &mt FR_E_GRAVE FR_R                          &kp FR_T         &kp FR_Y  &mt FR_U_GRAVE FR_U          &kp FR_I      &kp FR_O            &kp FR_P       &kp ESCAPE
+  &kp LEFT_SHIFT             &kp FR_Q  &kp FR_S               &kp FR_D             &kp FR_F                          &kp FR_G         &kp FR_H             &kp FR_J          &kp FR_K      &kp FR_L            &kp FR_M        &kp ENTER
+&kp LEFT_CONTROL             &kp FR_W  &kp FR_X  &mt FR_C_CEDILLA FR_C             &kp FR_V                          &kp FR_B         &kp FR_N         &kp FR_COMMA  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION  &kp RIGHT_SHIFT
+                                                              &kp LGUI          &mo_tog 1 1  &hold_sticky LEFT_ALT LEFT_SHIFT    &kp BACKSPACE            &kp SPACE       &mo_tog 2 2
             >;
         };
 
@@ -89,10 +89,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-         &none  &kp FR_EXCLAMATION   &kp FR_AT_SIGN      &kp FR_HASH    &kp FR_DOLLAR                    &kp FR_PERCENT      &kp FR_CARET  &kp FR_AMPERSAND          &kp FR_ASTERISK                       &kp FR_LEFT_PARENTHESIS              &kp FR_RIGHT_PARENTHESIS    &kp BACKSLASH
-&kp LEFT_SHIFT     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4                   &kp KP_NUMBER_5    &kp UNDERSCORE         &kp EQUAL  &mt GRAVE DOUBLE_QUOTES  &mt FR_LEFT_PARENTHESIS FR_RIGHT_PARENTHESIS  &mt FR_RIGHT_BRACKET FR_LEFT_BRACKET         &kp PIPE
-         &none     &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9                   &kp KP_NUMBER_0         &kp MINUS          &kp PLUS                &kp TILDE                                &kp LEFT_BRACE                       &kp RIGHT_BRACE  &kp RIGHT_SHIFT
-                                                            &kp LGUI      &mo_tog 2 2  &hold_sticky LEFT_ALT LEFT_SHIFT         &kp SPACE     &kp BACKSPACE                    &to 0
+&none            &none    &kp FR_DEGREE  &mt FR_EURO FR_DOLLAR      &kp FR_HASH                    &kp FR_PERCENT        &mt FR_GREATER_THAN FR_LESS_THAN                &kp FR_EXCLAMATION                              &kp FR_AMPERSAND                        &kp FR_AT_SIGN       &mt FR_PLUS FR_ASTRK         &kp BACKSLASH
+&none  &kp KP_NUMBER_1  &kp KP_NUMBER_2        &kp KP_NUMBER_3  &kp KP_NUMBER_4                   &kp KP_NUMBER_5                  &mt FR_PERIOD FR_EQUAL  &mt FR_RIGHT_BRACE FR_LEFT_BRACE  &mt FR_RIGHT_PARENTHESIS FR_LEFT_PARENTHESIS  &mt FR_RIGHT_BRACKET FR_LEFT_BRACKET  &mt FR_SEMICOLON FR_COMMA  &mt FR_PIPE FR_SLASH
+&none  &kp KP_NUMBER_6  &kp KP_NUMBER_7        &kp KP_NUMBER_8  &kp KP_NUMBER_9                   &kp KP_NUMBER_0    &mt FR_SINGLE_QUOTE FR_DOUBLE_QUOTES        &mt FR_UNDERSCORE FR_MINUS                                  &kp FR_COLON                          &kp FR_TILDE               &kp FR_CARET          &kp FR_GRAVE
+                                                      &kp LGUI            &to 0  &hold_sticky LEFT_ALT LEFT_SHIFT                           &kp BACKSPACE                         &kp SPACE                                   &mo_tog 2 2
             >;
         };
 
@@ -104,19 +104,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-           &none      &kp F1        &kp F2        &kp F3        &kp F4                            &kp F5       &kp F6          &kp F7          &kp F8           &kp F9      &kp F10          &none
-  &kp LEFT_SHIFT  &kp C_PREV    &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP                  &kp C_PLAY_PAUSE        &none           &none    &kp UP_ARROW            &none  &VSC_Search  &VSC_Cmd_Srch
-&kp LEFT_CONTROL  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                      &bt BT_SEL 3        &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW        &none          &none
-                                                &kp LGUI         &to 0  &hold_sticky LEFT_ALT LEFT_SHIFT    &kp SPACE   &kp BACKSPACE     &mo_tog 1 1
+           &none      &kp F1        &kp F2        &kp F3        &kp F4            &kp F5              &kp F6             &kp F7          &kp F8            &kp F9      &kp F10          &none
+  &kp LEFT_SHIFT  &kp C_PREV    &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE               &none  &mt END PAGE_DOWN    &kp UP_ARROW  &mt HOME PAGE_UP  &VSC_Search  &VSC_Cmd_Srch
+&kp LEFT_CONTROL  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3               &none     &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW        &none          &none
+                                                &kp LGUI   &mo_tog 1 1    &kp LEFT_SHIFT    &kp LEFT_CONTROL      &kp BACKSPACE           &to 0
             >;
         };
 
         Gaming {
             bindings = <
-         &kp TAB  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp ESCAPE
-  &kp LEFT_SHIFT         &kp A         &kp Z         &kp E         &kp R         &kp T           &kp Y         &kp U         &kp I         &kp O         &kp P       &none
-&kp LEFT_CONTROL         &kp Q         &kp S         &kp D         &kp F         &kp G           &kp H         &kp J         &kp K         &kp L         &kp M       &none
-                                              &lt 0 ESCAPE  &kp LEFT_ALT     &kp SPACE           &none         &none         &none
+         &kp TAB  &kp FR_N1  &kp FR_N2     &kp FR_N3     &kp FR_N4  &kp FR_N5    &kp FR_N6  &kp FR_N7  &kp FR_N8  &kp FR_N9  &kp FR_N0  &kp ESCAPE
+  &kp LEFT_SHIFT   &kp FR_A   &kp FR_Z      &kp FR_E      &kp FR_R   &kp FR_T     &kp FR_Y   &kp FR_U   &kp FR_I   &kp FR_O   &kp FR_P       &none
+&kp LEFT_CONTROL   &kp FR_Q   &kp FR_S      &kp FR_D      &kp FR_F   &kp FR_G     &kp FR_H   &kp FR_J   &kp FR_K   &kp FR_L   &kp FR_M       &none
+                                        &lt 0 ESCAPE  &kp LEFT_ALT  &kp SPACE        &none      &none      &none
             >;
         };
     };
