@@ -50,7 +50,8 @@
                 <&kp LEFT_CONTROL>,
                 <&macro_tap>,
                 <&kp P>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
         };
         VSC_Cmd_Srch: VSC_Cmd_Srch {
             compatible = "zmk,behavior-macro";
@@ -61,7 +62,8 @@
                 <&kp LEFT_CONTROL &kp LEFT_SHIFT>,
                 <&macro_tap>,
                 <&kp P>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_CONTROL &kp LEFT_SHIFT>;
         };
         WinRight: WinRight {
             compatible = "zmk,behavior-macro";
@@ -72,7 +74,8 @@
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
                 <&kp RIGHT>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_WIN>;
         };
         WinLeft: WinLeft {
             compatible = "zmk,behavior-macro";
@@ -83,7 +86,8 @@
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
                 <&kp LEFT_ARROW>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_WIN>;
         };
     };
 
