@@ -98,9 +98,9 @@
             label = "E_CIRCONFLEXE";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
+                <&macro_tap>,
                 <&kp FR_CARET>,
-                <&macro_press>,
+                <&macro_tap>,
                 <&kp FR_E>;
         };
     };
