@@ -164,7 +164,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none            &none    &kp FR_DEGREE  &mt FR_EURO FR_DOLLAR      &kp FR_HASH                    &kp FR_PERCENT        &mt FR_GREATER_THAN FR_LESS_THAN                &kp FR_EXCLAMATION                              &kp FR_AMPERSAND                        &kp FR_AT_SIGN       &mt FR_PLUS FR_ASTRK         &kp BACKSLASH
+&none            &none    &kp FR_DEGREE  &mt FR_EURO FR_DOLLAR      &kp FR_HASH                    &kp FR_PERCENT        &mt FR_GREATER_THAN FR_LESS_THAN    &mt FR_QUESTION FR_EXCLAMATION                              &kp FR_AMPERSAND                        &kp FR_AT_SIGN       &mt FR_PLUS FR_ASTRK         &kp BACKSLASH
 &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2        &kp KP_NUMBER_3  &kp KP_NUMBER_4                   &kp KP_NUMBER_5                  &mt FR_PERIOD FR_EQUAL  &mt FR_RIGHT_BRACE FR_LEFT_BRACE  &mt FR_RIGHT_PARENTHESIS FR_LEFT_PARENTHESIS  &mt FR_RIGHT_BRACKET FR_LEFT_BRACKET  &mt FR_SEMICOLON FR_COMMA  &mt FR_PIPE FR_SLASH
 &none  &kp KP_NUMBER_6  &kp KP_NUMBER_7        &kp KP_NUMBER_8  &kp KP_NUMBER_9                   &kp KP_NUMBER_0    &mt FR_SINGLE_QUOTE FR_DOUBLE_QUOTES        &mt FR_UNDERSCORE FR_MINUS                                  &kp FR_COLON                          &kp FR_TILDE               &kp FR_CARET          &kp FR_GRAVE
                                                       &kp LGUI            &to 0  &hold_sticky LEFT_ALT LEFT_SHIFT                           &kp BACKSPACE                         &kp SPACE                                   &mo_tog 2 2
