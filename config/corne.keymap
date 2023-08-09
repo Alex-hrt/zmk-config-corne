@@ -188,10 +188,10 @@
 
         Gaming {
             bindings = <
-         &kp TAB  &kp FR_N1  &kp FR_N2     &kp FR_N3     &kp FR_N4  &kp FR_N5    &kp FR_N6  &kp FR_N7  &kp FR_N8  &kp FR_N9  &kp FR_N0  &kp ESCAPE
-  &kp LEFT_SHIFT   &kp FR_A   &kp FR_Z      &kp FR_E      &kp FR_R   &kp FR_T     &kp FR_Y   &kp FR_U   &kp FR_I   &kp FR_O   &kp FR_P       &none
-&kp LEFT_CONTROL   &kp FR_Q   &kp FR_S      &kp FR_D      &kp FR_F   &kp FR_G     &kp FR_H   &kp FR_J   &kp FR_K   &kp FR_L   &kp FR_M       &none
-                                        &lt 0 ESCAPE  &kp LEFT_ALT  &kp SPACE        &none      &none      &none
+         &kp TAB  &kp FR_N1  &kp FR_N2  &kp FR_N3     &kp FR_N4  &kp FR_N5    &kp FR_N6  &kp FR_N7  &kp FR_N8  &kp FR_N9  &kp FR_N0  &kp ESCAPE
+  &kp LEFT_SHIFT   &kp FR_A   &kp FR_Z   &kp FR_E      &kp FR_R   &kp FR_T     &kp FR_Y   &kp FR_U   &kp FR_I   &kp FR_O   &kp FR_P       &none
+&kp LEFT_CONTROL   &kp FR_Q   &kp FR_S   &kp FR_D      &kp FR_F   &kp FR_G     &kp FR_H   &kp FR_J   &kp FR_K   &kp FR_L   &kp FR_M       &none
+                                            &to 0  &kp LEFT_ALT  &kp SPACE        &none      &none      &none
             >;
         };
     };
