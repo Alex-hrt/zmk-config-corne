@@ -151,7 +151,7 @@
             bindings = <
          &kp TAB  &mt FR_A_GRAVE FR_A  &kp FR_Z  &mt FR_E_ACUTE FR_E    &mt FR_E_GRAVE FR_R       &e_circonflexe_behav 0 FR_T         &kp FR_Y  &mt FR_U_GRAVE FR_U      &kp FR_I          &kp FR_O      &kp FR_P      &mt DELETE ESC
   &kp LEFT_SHIFT             &kp FR_Q  &kp FR_S             &kp FR_D               &kp FR_F                          &kp FR_G         &kp FR_H             &kp FR_J      &kp FR_K          &kp FR_L      &kp FR_M           &kp ENTER
-&kp LEFT_CONTROL             &kp FR_W  &kp FR_X                &none  &mt FR_C_CEDILLA FR_C                          &kp FR_V         &kp FR_B             &kp FR_N  &kp FR_COMMA  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION
+&kp LEFT_CONTROL             &kp FR_W  &kp FR_X             &kp FR_X  &mt FR_C_CEDILLA FR_C                          &kp FR_V         &kp FR_B             &kp FR_N  &kp FR_COMMA  &kp FR_SEMICOLON  &kp FR_COLON  &kp FR_EXCLAMATION
                                                             &kp LGUI            &mo_tog 1 1  &hold_sticky LEFT_ALT LEFT_SHIFT    &kp BACKSPACE            &kp SPACE   &mo_tog 2 2
             >;
         };
